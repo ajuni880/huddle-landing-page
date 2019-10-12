@@ -1,0 +1,21 @@
+{
+  "name": "huddle-landing-page-596348-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with coded decorative elements challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch-stylus": "stylus -c -w ./public/styles/main.styl --out ./public/dist",
+    "compile-stylus": "stylus -c ./public/styles/main.styl --out ./public/dist",
+    "start": "npm run \"compile-stylus\" && node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylus": "^0.54.7",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
